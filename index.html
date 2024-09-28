@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI tools Directory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="gradient-background">
+    <!-- Navigation bar -->
+    <nav class="nav">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="/placeholder.svg?height=32&width=32" alt="Logo">
+                <span>AI Directory</span>
+            </div>
+            <div class="nav-links">
+                <a href="/" class="active">Home</a>
+                <a href="#">Categories</a>
+                <a href="/about.#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="nav-right">
+                <input type="search" placeholder="Quick search..." aria-label="Quick search">
+                <button class="menu-button" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </nav>
+    <!-- Mobile menu (hidden by default) -->
+    <div class="mobile-menu">
+        <a href="/" class="active">Home</a>
+        <a href="/categories.html">Categories</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <div class="mobile-search">
+            <input type="search" placeholder="Search AI websites..." aria-label="Search">
+        </div>
+    </div>
+
+    <main class="container">
+        <!-- this is hero section  -->
+        
+        <!-- Header section -->
+        <header>
+            <h1>AI tools Directory</h1>
+            <p class="subtitle">Discover the best AI resources and tools</p>
+        </header>
+
+        <!-- Search input -->
+        <div class="search-container">
+            <span class="search-icon">🔍</span>
+            <input type="search" id="searchInput" placeholder="Search AI websites...">
+        </div>
+       
+
+        <!-- Grid container for AI website cards -->
+        <div class="grid" id="websiteGrid">
+            <div class="card">
+                <div class="pricing-indicator freemium">freemium</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="gpt2.png" alt="OpenAI logo" class="card-image">
+                        <h2>OpenAI</h2>
+                    </div>
+                </div>
+                <p>Artificial intelligence research laboratory consisting of the for-profit corporation OpenAI LP and its parent company, the non-profit OpenAI Inc.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <!-- <span class="hashtag">#AI</span>
+                        
+                        <span class="hashtag">#GPT</span> -->
+                    </div>
+                    <a href="https://openai.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pricing-indicator free">free</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="deepmind.png" alt="DeepMind logo" class="card-image">
+                        <h2>DeepMind</h2>
+                    </div>
+                </div>
+                <p>World leader in artificial intelligence research and its application for positive impact.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <!-- <span class="hashtag">#Deep</span>
+                        <span class="hashtag">#Research</span> -->
+                        
+                    </div>
+                    <a href="https://www.deepmind.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class= "pricing-indicator paid">paid</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="ibm.png" alt="IBM Watson logo" class="card-image">
+                        <h2>IBM Watson</h2>
+                    </div>
+                </div>
+                <p>AI platform for business, offering pre-built applications and tools to build, run and manage AI models.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <!-- <span class="hashtag">#AI</span>
+                        <span class="hashtag">#Business</span> -->
+                        <!-- <span class="hashtag">#Analytics</span> -->
+                    </div>
+                    <a href="https://www.ibm.com/watson" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pricing-indicator freemium">freemium</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="/placeholder.svg?height=40&width=40" alt="Google AI logo" class="card-image">
+                        <h2>Google AI</h2>
+                    </div>
+                </div>
+                <p>Google's initiative to make AI accessible to everyone and to use AI to solve important problems.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <span class="hashtag">#AI</span>
+                        <span class="hashtag">#MachineLearning</span>
+                        <span class="hashtag">#TensorFlow</span>
+                    </div>
+                    <a href="https://ai.google" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pricing-indicator freemium">freemium</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="/placeholder.svg?height=40&width=40" alt="Hugging Face logo" class="card-image">
+                        <h2>Hugging Face</h2>
+                    </div>
+                </div>
+                <p>AI community building the future of artificial intelligence through open source and open science.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <span class="hashtag">#AI</span>
+                        <span class="hashtag">#NLP</span>
+                        <span class="hashtag">#OpenSource</span>
+                    </div>
+                    <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pricing-indicator paid">paid</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="/placeholder.svg?height=40&width=40" alt="DataRobot logo" class="card-image">
+                        <h2>DataRobot</h2>
+                    </div>
+                </div>
+                <p>AI Cloud platform for data scientists, business analysts, and developers to build and deploy machine learning models.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <span class="hashtag">#AI</span>
+                        <span class="hashtag">#MachineLearning</span>
+                        <span class="hashtag">#AutoML</span>
+                    </div>
+                    <a href="https://www.datarobot.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pricing-indicator freemium">freemium</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="/placeholder.svg?height=40&width=40" alt="Dialogflow logo" class="card-image">
+                        <h2>Dialogflow</h2>
+                    </div>
+                </div>
+                <p>Google's natural language understanding platform for designing and integrating conversational user interfaces.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <span class="hashtag">#AI</span>
+                        <span class="hashtag">#NLP</span>
+                        <span class="hashtag">#Chatbots</span>
+                    </div>
+                    <a href="https://cloud.google.com/dialogflow" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pricing-indicator paid">paid</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="/placeholder.svg?height=40&width=40" alt="H2O.ai logo" class="card-image">
+                        <h2>H2O.ai</h2>
+                    </div>
+                </div>
+                <p>Open source machine learning platform that offers solutions for enterprises to rapidly build and deploy AI and machine learning models.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <span class="hashtag">#AI</span>
+                        <span class="hashtag">#MachineLearning</span>
+                        <span class="hashtag">#OpenSource</span>
+                    </div>
+                    <a href="https://www.h2o.ai" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pricing-indicator freemium">freemium</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="/placeholder.svg?height=40&width=40" alt="Keras logo" class="card-image">
+                        <h2>Keras</h2>
+                    </div>
+                </div>
+                <p>Open-source software library that provides a Python interface for artificial neural networks, acting as an interface for the TensorFlow library.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <span class="hashtag">#AI</span>
+                        <span class="hashtag">#DeepLearning</span>
+                        <span class="hashtag">#Python</span>
+                    </div>
+                    <a href="https://keras.io" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pricing-indicator freemium">freemium</div>
+                <div class="card-header">
+                    <div class="card-title">
+                        <img src="/placeholder.svg?height=40&width=40" alt="Fast.ai logo" class="card-image">
+                        <h2>Fast.ai</h2>
+                    </div>
+                </div>
+                <p>Making neural nets uncool again. Offers free courses on deep learning and provides a top-down, practical approach to AI.</p>
+                <div class="card-footer">
+                    <div class="hashtags">
+                        <span class="hashtag">#AI</span>
+                        <span class="hashtag">#DeepLearning</span>
+                        <span class="hashtag">#Education</span>
+                    </div>
+                    <a href="https://www.fast.ai" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                </div>
+            </div>
+      
+           
+            
+    </main>
+<!-- Vertical Navigation Bar -->
+<nav class="vertical-nav" >
+    <h2>Most Popular AI Tools Category</h2>
+    <ul>
+        <li><a href="/education.html"><img src="education.png" alt="Education Icon" height="40" width="40">Education</a></li>
+        <li><a href="/New folder/programmers.html"><img src="programmers.png" alt="Programmers Icon">Programmers</a></li>
+        <li><a href="New folder/writing.html"><img src="writing.png" alt="Writing Icon">Writing</a></li>
+        <li><a href="#"><img src="youtube.png" alt="YouTube Icon">YouTube</a></li>
+        <li><a href="#"><img src="earn-money.png" alt="Earn Money Icon">Earn Money</a></li>
+        <li><a href="#"><img src="video.png" alt="Video Icon">Video</a></li>
+        <li><a href="#"><img src="photo.png" alt="Photo Icon">Photo</a></li>
+        <li><a href="#"><img src="music.png" alt="Music Icon">Music</a></li>
+        <li><a href="#"><img src="go-crazy.png" alt="Go Crazy Icon">Go Crazy</a></li>
+    </ul>
+</nav>
+</div>
+    <!-- Footer -->
+     <hr>
+    <footer>
+        <div class="container">
+            © 2023 AI Websites Directory. All rights reserved.
+        </div>
+    </footer>
+    
+    
+    <script src="/script.js"></script>
+</body>
+</html>
